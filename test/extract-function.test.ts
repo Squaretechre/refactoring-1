@@ -1,7 +1,7 @@
 import { printOwing} from "../src/extract-function";
 
 describe('extract method', () => {
-    it('does a thing', () => {
+    it('prints an invoice showing how much the customer owes', () => {
         const spy = jest.spyOn(global.console, 'log')
 
         printOwing({
